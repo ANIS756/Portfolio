@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+.firstroom{
+   
+    height: 2500px;
+    width: 100%;
+    background-image:  url(IMG20200301125312.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-attachment: fixed;
+    
+
+    
+    background-position: center;
+    
+    
+   
+   
+    
+}
+.logo{
+    width: 38%;
+    float: left;
+    text-align: right;
+    margin-top: -142px;
+    color: #eb00ff;
+
+}
+.menu{
+    width: 40%;
+    float: right;
+    text-align: left;
+    margin-top: -142px;
+
+}
+.menu ul {
+    margin-left: 0px;
+}
+.menu ul li{
+    
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #eb00ff;
+    padding: 5px;
+}
+.menu ul li a:hover{
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+
+.content{
+    width: 48%;
+    padding: 5px;
+    margin-left: 64px;
+    background-color: rgba(0, 0, 0, 0.77);
+    border: 2px solid rgb(255, 255, 255);
+    
+    box-shadow: 0px 0px 10px yellow;
+    margin-top: 180px;
+    float: left;
+    margin-bottom: 250px;
+
+
+}
+.content h2{
+ color: white;
+ text-align: center;
+ font-size: 35px;
+}
+.content h4{
+color: white;
+text-align: center;
+margin-top: 10px;
+font-size: 25px;
+}
+.button{
+   
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    margin-left: 213px;
+    margin-right: 213px;
+    
+}
+.button a{
+    text-decoration: none;
+    
+    padding: 7px;
+}
+
+.bt1{
+    background-color: red;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: -40px;
+    color: white;
+
+}
+.bt1:hover{
+    background-color: yellow;
+    color: red;
+    animation: anis 2s;
+}
+.bt2{
+    background-color: red;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+   color: white;
+
+}
+.bt2:hover{
+    background-color: yellow;
+    color: red;
+    animation: anis 2s;
+}
+
+.myimage{
+    width: auto;
+    padding: 5px;
+    margin-right: 64px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    
+    box-shadow: 0px 0px 10px yellow;
+    margin-top: 150px;
+    float: right;
+    height: auto;
+
+}
+
+.secondroom{
+    width: 50%;
+
+    
+margin-top: 220px;
+margin-bottom: 80px;
+border: 1px solid rgb(255, 255, 255);
+padding: 10px;
+box-shadow: 0 0 20px yellow;
+height: auto;
+margin-left: 50px;
+clear: left;
+background-color: rgba(0, 0, 0, 0.77) ;
+
+}
+.secondroom h2{
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    color: white;
+}
+.secondroom p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    
+
+}
+.service{
+    
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+.service h2{
+    text-align: center;
+    padding: 15px ;
+    margin: 30px;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+    border: 2px solid white;
+    box-shadow: yellow;
+   
+    margin-bottom: 50px;
+
+}
+
+.box1{
+    float: left;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 27%;
+    margin: 20px;
+    height: 300px;
+    padding: 15px;
+    border: 2px solid white;
+   
+}
+.box1 h2{
+    color: white;
+    font-size: 35px;
+    margin: 28px;
+}
+.box1 p{
+    color: white;
+    line-height: 30px;
+    font-size: 25px;
+    padding: 0px 10px;
+    text-align: justify;
+}
+.contact{
+   
+    height: auto;
+    width: 100%;
+    
+    clear: both;
+    
+    
+   
+}
+.contact h2{
+    text-align: center;
+    padding: 15px ;
+    margin: 30px;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-bottom: 50px;
+    margin-top: 300px;
+    border: 2px solid white;
+}
+.contactform{
+    background: rgba(0, 0, 0, 0.829);
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    float: left;
+    border: 2px solid white;
+    margin-left: 200px;
+
+}
+
+    .form{
+        margin: 0 auto;
+        width: 83%;
+        
+        height: 300px;
+        padding: 12px;
+        
+    
+    }
+    textarea{
+        padding: 10px 0px;
+        width: 90%;
+        border-radius: 6px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        
+
+    }
+    
+
+
+.form input{
+        padding: 10px 10px;
+        width: 90%;
+        border-radius: 6px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+}
+.sub{
+   
+    background: black;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+.contact22{
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.829);
+    margin: 30px;
+    float: right;
+    border: 2px solid white;
+    margin-right: 200px;
+    
+
+}
+.info{
+    padding: 15px;
+}
+.contact22 h4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px;
+    
+  
+
+   
+
+}
+
+@keyframes anis{
+    0%{
+        background: linear-gradient(red, yellow);
+
+    }
+    100%{
+        background: linear-gradient(yellow, red);
+        transform: rotate(360deg);
+    }
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 51px;
+    line-height: 41px;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+ 
+    color: white;
+    margin-left: 160px;
+    margin-top: 10px;
+}
